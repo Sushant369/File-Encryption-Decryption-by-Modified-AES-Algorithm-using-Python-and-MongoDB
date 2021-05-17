@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-# https://www.youtube.com/watch?v=VQnmcBnguPY
+
 
 import base64 
 #OOOWeb Host connection
@@ -77,7 +77,7 @@ encrypted_data2 = cipher2.encrypt(data2)
 
 # mongodb+srv://test:test@cluster0.cz8rm.mongodb.net/Encryption_db?retryWrites=true&w=majority
 
-client=MongoClient("mongodb+srv://test:test@cluster0.cz8rm.mongodb.net/Encryption_db?retryWrites=true&w=majority")
+client=MongoClient("Enter your MongoDB Connection string")
 
 db=client.get_database('Encryption_db')
 
