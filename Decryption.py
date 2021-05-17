@@ -32,7 +32,7 @@ cipher2=AES.new(key2,mode,IV)
 
 ###########################mongoDB##################3
 
-client=MongoClient("mongodb+srv://test:test@cluster0.cz8rm.mongodb.net/Encryption_db?retryWrites=true&w=majority")
+client=MongoClient("Enter you mongo db connection string")
 
 db=client.get_database('Encryption_db')
 
